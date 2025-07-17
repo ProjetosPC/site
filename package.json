@@ -1,0 +1,12 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "Deploy no Cloudflare Pages com Page Functions para /painel",
+  "type": "module",
+  "scripts": {
+    "start": "echo \"Nothing to build\""
+  },
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}
