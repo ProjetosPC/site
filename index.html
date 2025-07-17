@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Gestão - Lux Energia Brasil</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav style="width: auto; height: auto; display: flex; flex-direction: row; align-items: center; background-color: rgb(33, 37, 41); overflow: hidden; flex-wrap: nowrap;">
+        <img src="https://luxenergiaeservicos.com.br/wp-content/uploads/2025/05/LOGO-LUX-ENERGIA-BRASIL-02-300x145.png" alt="Lux Energia Logo" style="height: auto; max-height: 10vh; width: auto; max-width: 35%; box-sizing: border-box; padding-top: 1vh; padding-bottom: 1vh; margin-left: 0.4vw; margin-right: 1vw;">
+        <svg style="width: auto; height: 5vh; margin-right: 2vw;">
+            <text id="logo_label" style="fill: white; font-weight: 500;">Painel de Gestão</text>
+        </svg>
+    </nav>
+    <div id="loading" style="display: none;">
+        <span class="loader"></span>
+        <p>Carregando métricas...</p>
+    </div>
+    <div id="main-content" style="display: none; height: auto;">
+        <section class="container_card_container">
+            <section id="link_card_container" class="card_container" style="height: auto;">
+            </section>
+            <section id="cards_container" class="card_container" style="height: auto;">
+            </section>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
